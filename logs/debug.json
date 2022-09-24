@@ -1,0 +1,62 @@
+{
+  "_id": {
+    "$oid": "6253daa8433bb181dde07409"
+  },
+  "host_player_id": "9f4432f0f3a04e6e",
+  "session_hash": "34922d7b",
+  "player_id": "2cb21f70a5d76114",
+  "vehicle_data": {
+    "vehicle_id": "4c2c51f6",
+    "vehicle_name": "Natalya’s BMW 1 Series Race",
+    "vehicle_paint_id": "8c2d41e9"
+  },
+  "host": false,
+  "mods": {
+    "disabled": false,
+    "mods_list": [
+      {
+        "mod_id": 6,
+        "mod_name": "stable_frame",
+        "mod_value": 0
+      },
+      {
+        "mod_id": 13,
+        "mod_name": "safety_net",
+        "mod_value": 0
+      },
+      {
+        "mod_id": 20,
+        "mod_name": "laser_sight",
+        "mod_value": 2044
+      }
+    ]
+  },
+  "profile_data": {
+    "player_level": 4,
+    "driver_score": 7,
+    "fire_hit_ratio": 20.58823585510254,
+    "total_race_time": 1338369411,
+    "total_fans": 6116,
+    "total_races": 5,
+    "first_place": 2
+  },
+  "race_data": {
+    "map_id": "41c75887",
+    "map_name": "NY Dumbo 2",
+    "unknown1": 516,
+    "unknown2": 0,
+    "unknown3": 267,
+    "unknown4": 768,
+    "best_lap_time": 123.56525421142578,
+    "fans_race": 625,
+    "fans_unknown1": 0,
+    "fans_unknown2": 703,
+    "fans_unknown3": 0,
+    "fans_placement": 800,
+    "fans_loosing": 62,
+    "fans_total": 2190,
+    "checkpoint1": 52.928836822509766,
+    "checkpoint2": 95.7509994506836,
+    "checkpoint3": 192.45040893554688
+  }
+}

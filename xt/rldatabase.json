@@ -1,0 +1,5502 @@
+[
+  {
+    "type": "ScoringType",
+    "local_index": 0,
+    "global_id": 42610168,
+    "global_id_hex": "f82d8a02",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringTypeArray",
+    "local_index": 1,
+    "global_id": 82403146,
+    "global_id_hex": "4a5fe904",
+    "data": {
+      "Value": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "10000000",
+        "value": 16
+      },
+      "Types": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 20,
+        "values_0_pos": 48,
+        "values_0": "1c000000",
+        "values_1_pos": 52,
+        "values_1": "38000000",
+        "values_2_pos": 56,
+        "values_2": "3d000000",
+        "values_3_pos": 60,
+        "values_3": "48000000",
+        "values_4_pos": 64,
+        "values_4": "41000000",
+        "values_5_pos": 68,
+        "values_5": "0d000000",
+        "values_6_pos": 72,
+        "values_6": "02000000",
+        "values_7_pos": 76,
+        "values_7": "4b000000",
+        "values_8_pos": 80,
+        "values_8": "59000000",
+        "values_9_pos": 84,
+        "values_9": "66000000",
+        "values_10_pos": 88,
+        "values_10": "6f000000",
+        "values_11_pos": 92,
+        "values_11": "06000000",
+        "values_12_pos": 96,
+        "values_12": "09000000",
+        "values_13_pos": 100,
+        "values_13": "25000000",
+        "values_14_pos": 104,
+        "values_14": "78000000",
+        "values_15_pos": 108,
+        "values_15": "47000000",
+        "values_16_pos": 112,
+        "values_16": "0f000000",
+        "values_17_pos": 116,
+        "values_17": "11000000",
+        "values_18_pos": 120,
+        "values_18": "73000000",
+        "values_19_pos": 124,
+        "values_19": "39000000"
+      },
+      "TakeOutScoreType": {
+        "read_type": 5,
+        "hex": "39000000",
+        "value": 57
+      },
+      "RepairScoreType": {
+        "read_type": 5,
+        "hex": "73000000",
+        "value": 115
+      },
+      "LightCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "MediumCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "0f000000",
+        "value": 15
+      },
+      "HeavyCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "11000000",
+        "value": 17
+      }
+    }
+  },
+  {
+    "type": "HandOfGodParameters",
+    "local_index": 2,
+    "global_id": 100390132,
+    "global_id_hex": "f4d4fb05",
+    "data": {
+      "ResetTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "CollisionTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "HitByPerkTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "FlippedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "9a99993e",
+        "value": 1050253722
+      },
+      "OffSplineTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "TumblingTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcc4c3e",
+        "value": 1045220557
+      },
+      "StuckTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "MovingBackwardsTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000003f",
+        "value": 1056964608
+      },
+      "SlappedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00004040",
+        "value": 1077936128
+      },
+      "RidiculousSlappedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000a040",
+        "value": 1084227584
+      },
+      "WaitTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "AIResetTimeAddition": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00004040",
+        "value": 1077936128
+      },
+      "ForwardRecoveryTimeAddition": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "MaximumCollisionAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 180,
+            "type": "f32",
+            "value": "cdcc4c3f"
+          },
+          "Yaw": {
+            "position": 184,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "Roll": {
+            "position": 188,
+            "type": "f32",
+            "value": "cdcc4c3f"
+          }
+        }
+      },
+      "MaximumPerkAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 192,
+            "type": "f32",
+            "value": "9a99993e"
+          },
+          "Yaw": {
+            "position": 196,
+            "type": "f32",
+            "value": "0000003f"
+          },
+          "Roll": {
+            "position": 200,
+            "type": "f32",
+            "value": "9a99993e"
+          }
+        }
+      },
+      "NoteworthyCollisionImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3d",
+        "value": 1036831949
+      },
+      "MinimumSpeedInMPH": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00007041",
+        "value": 1097859072
+      },
+      "MinimumForwardSpeedInMetres": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000a040",
+        "value": 1084227584
+      },
+      "ForwardDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "3333333f",
+        "value": 1060320051
+      },
+      "ForwardResetDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "9a99993e",
+        "value": 1050253722
+      },
+      "DriftDistance": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00007042",
+        "value": 1114636288
+      },
+      "DriftDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "3333333f",
+        "value": 1060320051
+      },
+      "MinDotUp": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "6666e63e",
+        "value": 1055286886
+      },
+      "AIControlTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "MaximumAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 240,
+            "type": "f32",
+            "value": "0000c03f"
+          },
+          "Yaw": {
+            "position": 244,
+            "type": "f32",
+            "value": "00002040"
+          },
+          "Roll": {
+            "position": 248,
+            "type": "f32",
+            "value": "0000c03f"
+          }
+        }
+      },
+      "StandardGhostParameters": {
+        "read_type": 3,
+        "values": {
+          "type": "GhostTimeAfterSpawnParameters",
+          "GhostTimeAfterHoG": {
+            "position": 252,
+            "type": "f32",
+            "value": "00000040"
+          },
+          "GhostTimeAfterWrecked": {
+            "position": 256,
+            "type": "f32",
+            "value": "00000040"
+          }
+        }
+      },
+      "FinishedSpinX": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3e",
+        "value": 1053609165
+      },
+      "FinishedSpinY": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "FinishedSpinZ": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3e",
+        "value": 1053609165
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 3,
+    "global_id": 117091868,
+    "global_id_hex": "1caefa06",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 4,
+    "global_id": 167087762,
+    "global_id_hex": "928ef509",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 5,
+    "global_id": 193623188,
+    "global_id_hex": "94748a0b",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "02000000",
+        "value": 2
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 336,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 340,
+            "type": "f32",
+            "value": "0000c842"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 6,
+    "global_id": 207048354,
+    "global_id_hex": "a24e570c",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 7,
+    "global_id": 285260022,
+    "global_id_hex": "f6b80011",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0_pos": 376,
+        "values_0": "5b000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "14000000",
+        "value": 20
+      }
+    }
+  },
+  {
+    "type": "DamageParameters",
+    "local_index": 8,
+    "global_id": 329759333,
+    "global_id_hex": "65baa713",
+    "data": {
+      "MaxWorldDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxWorldEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxVehicleDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxVehicleEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxObjectDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxObjectEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MaxStaticImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0050c347",
+        "value": 1203982336
+      },
+      "MaxDynamicImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0060ea46",
+        "value": 1189765120
+      },
+      "HitByPerkCooldown": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "CollidedCooldown": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "HealthIncrement": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "LightImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MediumImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "HeavyImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "ResetTimerAfterWrecked": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "CapGameplayImpulse": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "IntraVehicularCollisionInertiaScale": {
+        "read_type": 3,
+        "values": {
+          "type": "InertiaScale",
+          "HumanToAiInertiaScaleHuman": {
+            "position": 444,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "HumanToAiInertiaScaleAi": {
+            "position": 448,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "HumanToHumanInertiaScale": {
+            "position": 452,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "AiToAiInertiaScale": {
+            "position": 456,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "CarToObjectInertiaScaleCar": {
+            "position": 460,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "CarToObjectInertiaScaleObject": {
+            "position": 464,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "HumanToAiMassScaleHuman": {
+            "position": 468,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "HumanToAiMassScaleAi": {
+            "position": 472,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "CarToObjectMassScaleCar": {
+            "position": 476,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "CarToObjectMassScaleObject": {
+            "position": 480,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "ScaledImpactMaxSpeed": {
+            "position": 484,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "ScaledImpactMinSpeed": {
+            "position": 488,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "MinCarToObjectMassValue": {
+            "position": 492,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "VehicleHealthGroups": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 9,
+    "global_id": 427540158,
+    "global_id_hex": "bebe7b19",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0_pos": 520,
+        "values_0": "6d000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "1e000000",
+        "value": 30
+      }
+    }
+  },
+  {
+    "type": "ImpactType",
+    "local_index": 10,
+    "global_id": 567245677,
+    "global_id_hex": "6d7bcf21",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "01000000",
+        "value": 1
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 528,
+            "type": "f32",
+            "value": "cdcc4c3d"
+          },
+          "Max": {
+            "position": 532,
+            "type": "f32",
+            "value": "cdcccc3d"
+          }
+        }
+      },
+      "SideImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 536,
+            "type": "f32",
+            "value": "0ad7233d"
+          },
+          "Max": {
+            "position": 540,
+            "type": "f32",
+            "value": "cdcccc3d"
+          }
+        }
+      },
+      "RollScreenEffect": {
+        "read_type": 5,
+        "hex": "6c000000",
+        "value": 108
+      },
+      "FrontScreenEffect": {
+        "read_type": 5,
+        "hex": "27000000",
+        "value": 39
+      },
+      "SideScreenEffect": {
+        "read_type": 5,
+        "hex": "77000000",
+        "value": 119
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 11,
+    "global_id": 619410184,
+    "global_id_hex": "0873eb24",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 2,
+        "values_0_pos": 572,
+        "values_0": "7b000000",
+        "values_1_pos": 576,
+        "values_1": "22000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "05000000",
+        "value": 5
+      }
+    }
+  },
+  {
+    "type": "HandOfGodParameters",
+    "local_index": 12,
+    "global_id": 727107198,
+    "global_id_hex": "7ec6562b",
+    "data": {
+      "ResetTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "CollisionTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "HitByPerkTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "FlippedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "9a99993e",
+        "value": 1050253722
+      },
+      "OffSplineTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "TumblingTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcc4c3e",
+        "value": 1045220557
+      },
+      "StuckTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "MovingBackwardsTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000003f",
+        "value": 1056964608
+      },
+      "SlappedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00004040",
+        "value": 1077936128
+      },
+      "RidiculousSlappedTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000a040",
+        "value": 1084227584
+      },
+      "WaitTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      },
+      "AIResetTimeAddition": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00004040",
+        "value": 1077936128
+      },
+      "ForwardRecoveryTimeAddition": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "MaximumCollisionAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 632,
+            "type": "f32",
+            "value": "cdcc4c3f"
+          },
+          "Yaw": {
+            "position": 636,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "Roll": {
+            "position": 640,
+            "type": "f32",
+            "value": "cdcc4c3f"
+          }
+        }
+      },
+      "MaximumPerkAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 644,
+            "type": "f32",
+            "value": "9a99993e"
+          },
+          "Yaw": {
+            "position": 648,
+            "type": "f32",
+            "value": "0000003f"
+          },
+          "Roll": {
+            "position": 652,
+            "type": "f32",
+            "value": "9a99993e"
+          }
+        }
+      },
+      "NoteworthyCollisionImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3d",
+        "value": 1036831949
+      },
+      "MinimumSpeedInMPH": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00007041",
+        "value": 1097859072
+      },
+      "MinimumForwardSpeedInMetres": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000a040",
+        "value": 1084227584
+      },
+      "ForwardDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "3333333f",
+        "value": 1060320051
+      },
+      "ForwardResetDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "9a99993e",
+        "value": 1050253722
+      },
+      "DriftDistance": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00007042",
+        "value": 1114636288
+      },
+      "DriftDot": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "3333333f",
+        "value": 1060320051
+      },
+      "MinDotUp": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdccccbd",
+        "value": 3184315597
+      },
+      "AIControlTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "MaximumAngularVelocity": {
+        "read_type": 3,
+        "values": {
+          "type": "AngularVelocity",
+          "Pitch": {
+            "position": 692,
+            "type": "f32",
+            "value": "0000c03f"
+          },
+          "Yaw": {
+            "position": 696,
+            "type": "f32",
+            "value": "00002040"
+          },
+          "Roll": {
+            "position": 700,
+            "type": "f32",
+            "value": "0000c03f"
+          }
+        }
+      },
+      "StandardGhostParameters": {
+        "read_type": 3,
+        "values": {
+          "type": "GhostTimeAfterSpawnParameters",
+          "GhostTimeAfterHoG": {
+            "position": 704,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "GhostTimeAfterWrecked": {
+            "position": 708,
+            "type": "f32",
+            "value": "0000803f"
+          }
+        }
+      },
+      "FinishedSpinX": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3e",
+        "value": 1053609165
+      },
+      "FinishedSpinY": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "FinishedSpinZ": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "cdcccc3e",
+        "value": 1053609165
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 13,
+    "global_id": 800933485,
+    "global_id_hex": "6d46bd2f",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "05000000",
+        "value": 5
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 756,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 760,
+            "type": "f32",
+            "value": "0000c841"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 14,
+    "global_id": 879712203,
+    "global_id_hex": "cb576f34",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 2,
+        "values_0_pos": 780,
+        "values_0": "0a000000",
+        "values_1_pos": 784,
+        "values_1": "22000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "63000000",
+        "value": 99
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 15,
+    "global_id": 974317258,
+    "global_id_hex": "cae6123a",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 796,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 800,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 804,
+            "type": "BaseSpecialFXComponent",
+            "value": "2f000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 16,
+    "global_id": 1000108101,
+    "global_id_hex": "45709c3b",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 816,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 820,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 824,
+            "type": "BaseSpecialFXComponent",
+            "value": "55000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "LandingType",
+    "local_index": 17,
+    "global_id": 1122762876,
+    "global_id_hex": "7c00ec42",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "03000000",
+        "value": 3
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 832,
+            "type": "f32",
+            "value": "6666263f"
+          },
+          "Max": {
+            "position": 836,
+            "type": "f32",
+            "value": "0000803f"
+          }
+        }
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "12000000",
+        "value": 18
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 18,
+    "global_id": 1157148328,
+    "global_id_hex": "a8aef844",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 852,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 856,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 860,
+            "type": "BaseSpecialFXComponent",
+            "value": "13000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 19,
+    "global_id": 1201404027,
+    "global_id_hex": "7bf89b47",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "01000000",
+        "value": 1
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 896,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 900,
+            "type": "f32",
+            "value": "00000040"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 20,
+    "global_id": 1233967540,
+    "global_id_hex": "b4d98c49",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 912,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 916,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 920,
+            "type": "BaseSpecialFXComponent",
+            "value": "19000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringTypeArray",
+    "local_index": 21,
+    "global_id": 1239854457,
+    "global_id_hex": "79ade649",
+    "data": {
+      "Value": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "Types": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 3,
+        "values_0_pos": 956,
+        "values_0": "47000000",
+        "values_1_pos": 960,
+        "values_1": "0f000000",
+        "values_2_pos": 964,
+        "values_2": "11000000"
+      },
+      "TakeOutScoreType": {
+        "read_type": 5,
+        "hex": "39000000",
+        "value": 57
+      },
+      "RepairScoreType": {
+        "read_type": 5,
+        "hex": "73000000",
+        "value": 115
+      },
+      "LightCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "47000000",
+        "value": 71
+      },
+      "MediumCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "0f000000",
+        "value": 15
+      },
+      "HeavyCollisionWithVehicleScoreType": {
+        "read_type": 5,
+        "hex": "11000000",
+        "value": 17
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 22,
+    "global_id": 1244502692,
+    "global_id_hex": "a49a2d4a",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ImpactType",
+    "local_index": 23,
+    "global_id": 1356885860,
+    "global_id_hex": "646fe050",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "00000000",
+        "value": 0
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 988,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Max": {
+            "position": 992,
+            "type": "f32",
+            "value": "cdcc4c3d"
+          }
+        }
+      },
+      "SideImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 996,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Max": {
+            "position": 1000,
+            "type": "f32",
+            "value": "0ad7233d"
+          }
+        }
+      },
+      "RollScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "FrontScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "SideScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      }
+    }
+  },
+  {
+    "type": "GameModeSystem",
+    "local_index": 24,
+    "global_id": 1429693217,
+    "global_id_hex": "21633755",
+    "data": {
+      "SP_Destruction": {
+        "read_type": 3,
+        "values": {
+          "type": "SP_GameMode_Destruction",
+          "MaxDistanceEffects": {
+            "position": 1016,
+            "type": "i32",
+            "value": "04000000"
+          },
+          "MinRangeForDistanceEffect": {
+            "position": 1020,
+            "type": "f32",
+            "value": "00007042"
+          },
+          "MaxRangeForDistanceEffect": {
+            "position": 1024,
+            "type": "f32",
+            "value": "0000c843"
+          },
+          "MaxAIVehiclesActive": {
+            "position": 1028,
+            "type": "i32",
+            "value": "13000000"
+          },
+          "MaxWavesActive": {
+            "position": 1032,
+            "type": "i32",
+            "value": "02000000"
+          },
+          "ForwardsCutOffDistance": {
+            "position": 1036,
+            "type": "f32",
+            "value": "0000fa43"
+          },
+          "BombLifetime": {
+            "position": 1040,
+            "type": "f32",
+            "value": "0000c841"
+          },
+          "EasyCar": {
+            "position": 1044,
+            "type": "CarDifficultyData",
+            "EasyCar": {
+              "type": "CarDifficultyData",
+              "HitPoints": {
+                "position": 1044,
+                "type": "i32",
+                "value": "01000000"
+              },
+              "WreckedPoints": {
+                "position": 1048,
+                "type": "i32",
+                "value": "02000000"
+              },
+              "DistanceSpecialFX": {
+                "position": 1052,
+                "type": "SpecialFX",
+                "DistanceSpecialFX": {
+                  "type": "SpecialFX",
+                  "Components": {
+                    "position": 1052,
+                    "type": "SpecialFXComponentData",
+                    "Components": {
+                      "type": "SpecialFXComponentData",
+                      "SpeedFactor": {
+                        "position": 1052,
+                        "type": "f32",
+                        "value": "64000000"
+                      },
+                      "StartOffset": {
+                        "position": 1056,
+                        "type": "f32",
+                        "value": "01000000"
+                      },
+                      "Component": {
+                        "position": 1060,
+                        "type": "BaseSpecialFXComponent",
+                        "value": "05000000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "MediumCar": {
+            "position": 1056,
+            "type": "CarDifficultyData",
+            "MediumCar": {
+              "type": "CarDifficultyData",
+              "HitPoints": {
+                "position": 1056,
+                "type": "i32",
+                "value": "01000000"
+              },
+              "WreckedPoints": {
+                "position": 1060,
+                "type": "i32",
+                "value": "05000000"
+              },
+              "DistanceSpecialFX": {
+                "position": 1064,
+                "type": "SpecialFX",
+                "DistanceSpecialFX": {
+                  "type": "SpecialFX",
+                  "Components": {
+                    "position": 1064,
+                    "type": "SpecialFXComponentData",
+                    "Components": {
+                      "type": "SpecialFXComponentData",
+                      "SpeedFactor": {
+                        "position": 1064,
+                        "type": "f32",
+                        "value": "50000000"
+                      },
+                      "StartOffset": {
+                        "position": 1068,
+                        "type": "f32",
+                        "value": "01000000"
+                      },
+                      "Component": {
+                        "position": 1072,
+                        "type": "BaseSpecialFXComponent",
+                        "value": "09000000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "HardCar": {
+            "position": 1068,
+            "type": "CarDifficultyData",
+            "HardCar": {
+              "type": "CarDifficultyData",
+              "HitPoints": {
+                "position": 1068,
+                "type": "i32",
+                "value": "01000000"
+              },
+              "WreckedPoints": {
+                "position": 1072,
+                "type": "i32",
+                "value": "09000000"
+              },
+              "DistanceSpecialFX": {
+                "position": 1076,
+                "type": "SpecialFX",
+                "DistanceSpecialFX": {
+                  "type": "SpecialFX",
+                  "Components": {
+                    "position": 1076,
+                    "type": "SpecialFXComponentData",
+                    "Components": {
+                      "type": "SpecialFXComponentData",
+                      "SpeedFactor": {
+                        "position": 1076,
+                        "type": "f32",
+                        "value": "72000000"
+                      },
+                      "StartOffset": {
+                        "position": 1080,
+                        "type": "f32",
+                        "value": "01000000"
+                      },
+                      "Component": {
+                        "position": 1084,
+                        "type": "BaseSpecialFXComponent",
+                        "value": "02000000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "VHardCar": {
+            "position": 1080,
+            "type": "CarDifficultyData",
+            "VHardCar": {
+              "type": "CarDifficultyData",
+              "HitPoints": {
+                "position": 1080,
+                "type": "i32",
+                "value": "01000000"
+              },
+              "WreckedPoints": {
+                "position": 1084,
+                "type": "i32",
+                "value": "02000000"
+              },
+              "DistanceSpecialFX": {
+                "position": 1088,
+                "type": "SpecialFX",
+                "DistanceSpecialFX": {
+                  "type": "SpecialFX",
+                  "Components": {
+                    "position": 1088,
+                    "type": "SpecialFXComponentData",
+                    "Components": {
+                      "type": "SpecialFXComponentData",
+                      "SpeedFactor": {
+                        "position": 1088,
+                        "type": "f32",
+                        "value": "08000000"
+                      },
+                      "StartOffset": {
+                        "position": 1092,
+                        "type": "f32",
+                        "value": "54000000"
+                      },
+                      "Component": {
+                        "position": 1096,
+                        "type": "BaseSpecialFXComponent",
+                        "value": "3e000000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "SpawnSpecialFX": {
+            "position": 1092,
+            "type": "SpecialFX",
+            "SpawnSpecialFX": {
+              "type": "SpecialFX",
+              "Components": {
+                "position": 1092,
+                "type": "SpecialFXComponentData",
+                "Components": {
+                  "type": "SpecialFXComponentData",
+                  "SpeedFactor": {
+                    "position": 1092,
+                    "type": "f32",
+                    "value": "54000000"
+                  },
+                  "StartOffset": {
+                    "position": 1096,
+                    "type": "f32",
+                    "value": "3e000000"
+                  },
+                  "Component": {
+                    "position": 1100,
+                    "type": "BaseSpecialFXComponent",
+                    "value": "01000000"
+                  }
+                }
+              }
+            }
+          },
+          "RemovedSpecialFX": {
+            "position": 1096,
+            "type": "SpecialFX",
+            "RemovedSpecialFX": {
+              "type": "SpecialFX",
+              "Components": {
+                "position": 1096,
+                "type": "SpecialFXComponentData",
+                "Components": {
+                  "type": "SpecialFXComponentData",
+                  "SpeedFactor": {
+                    "position": 1096,
+                    "type": "f32",
+                    "value": "3e000000"
+                  },
+                  "StartOffset": {
+                    "position": 1100,
+                    "type": "f32",
+                    "value": "01000000"
+                  },
+                  "Component": {
+                    "position": 1104,
+                    "type": "BaseSpecialFXComponent",
+                    "value": "01000000"
+                  }
+                }
+              }
+            }
+          },
+          "FavourPlayersOwnRoute": {
+            "position": 1100,
+            "type": "bool",
+            "value": "01000000"
+          },
+          "SpawnExtraAIToFillAllRoutes": {
+            "position": 1104,
+            "type": "bool",
+            "value": "01000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "CameraSpecialFX",
+    "local_index": 25,
+    "global_id": 1573346882,
+    "global_id_hex": "425ec75d",
+    "data": {
+      "Time": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "OffsetX": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 4,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1168,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1172,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1176,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1180,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1184,
+            "type": "f32",
+            "value": "6808073e"
+          },
+          "Value": {
+            "position": 1188,
+            "type": "f32",
+            "value": "e84ad43e"
+          },
+          "InTangent": {
+            "position": 1192,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1196,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1200,
+            "type": "f32",
+            "value": "6808873e"
+          },
+          "Value": {
+            "position": 1204,
+            "type": "f32",
+            "value": "3751bbbe"
+          },
+          "InTangent": {
+            "position": 1208,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1212,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1216,
+            "type": "f32",
+            "value": "42ecc43e"
+          },
+          "Value": {
+            "position": 1220,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1224,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1228,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "OffsetY": {
+        "read_type": 259,
+        "hex": "01000400",
+        "num1": 262145,
+        "count": 3,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1232,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1236,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1240,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1244,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1248,
+            "type": "f32",
+            "value": "9c8cca3d"
+          },
+          "Value": {
+            "position": 1252,
+            "type": "f32",
+            "value": "c1c7e03e"
+          },
+          "InTangent": {
+            "position": 1256,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1260,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1264,
+            "type": "f32",
+            "value": "b85c4d3e"
+          },
+          "Value": {
+            "position": 1268,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1272,
+            "type": "f32",
+            "value": "ec7f8ac2"
+          },
+          "OutTangent": {
+            "position": 1276,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "OffsetZ": {
+        "read_type": 259,
+        "hex": "01000700",
+        "num1": 458753,
+        "count": 6,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1280,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1284,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1288,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1292,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1296,
+            "type": "f32",
+            "value": "020ee13d"
+          },
+          "Value": {
+            "position": 1300,
+            "type": "f32",
+            "value": "f8181c3f"
+          },
+          "InTangent": {
+            "position": 1304,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1308,
+            "type": "f32",
+            "value": "d88dadc2"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1312,
+            "type": "f32",
+            "value": "172d503e"
+          },
+          "Value": {
+            "position": 1316,
+            "type": "f32",
+            "value": "6457a2be"
+          },
+          "InTangent": {
+            "position": 1320,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1324,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1328,
+            "type": "f32",
+            "value": "ce899d3e"
+          },
+          "Value": {
+            "position": 1332,
+            "type": "f32",
+            "value": "10cec73e"
+          },
+          "InTangent": {
+            "position": 1336,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1340,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_4": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1344,
+            "type": "f32",
+            "value": "e84bbf3e"
+          },
+          "Value": {
+            "position": 1348,
+            "type": "f32",
+            "value": "10cec7be"
+          },
+          "InTangent": {
+            "position": 1352,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1356,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_5": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1360,
+            "type": "f32",
+            "value": "0feff13e"
+          },
+          "Value": {
+            "position": 1364,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1368,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1372,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "Pitch": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Yaw": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Roll": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "OffsetFov": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ImpactType",
+    "local_index": 26,
+    "global_id": 1611093402,
+    "global_id_hex": "9a550760",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "03000000",
+        "value": 3
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 1380,
+            "type": "f32",
+            "value": "52b89e3e"
+          },
+          "Max": {
+            "position": 1384,
+            "type": "f32",
+            "value": "0000803f"
+          }
+        }
+      },
+      "SideImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 1388,
+            "type": "f32",
+            "value": "52b89e3e"
+          },
+          "Max": {
+            "position": 1392,
+            "type": "f32",
+            "value": "0000803f"
+          }
+        }
+      },
+      "RollScreenEffect": {
+        "read_type": 5,
+        "hex": "0c000000",
+        "value": 12
+      },
+      "FrontScreenEffect": {
+        "read_type": 5,
+        "hex": "1a000000",
+        "value": 26
+      },
+      "SideScreenEffect": {
+        "read_type": 5,
+        "hex": "4c000000",
+        "value": 76
+      }
+    }
+  },
+  {
+    "type": "ScoringParameters",
+    "local_index": 27,
+    "global_id": 1651978106,
+    "global_id_hex": "7a2f7762",
+    "data": {
+      "DriftAngle": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 1408,
+            "type": "f32",
+            "value": "00007041"
+          },
+          "Max": {
+            "position": 1412,
+            "type": "f32",
+            "value": "00004842"
+          }
+        }
+      },
+      "SlipAmount": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 1416,
+            "type": "f32",
+            "value": "0000003f"
+          },
+          "Max": {
+            "position": 1420,
+            "type": "f32",
+            "value": "00004842"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "CameraSpecialFX",
+    "local_index": 28,
+    "global_id": 1678928904,
+    "global_id_hex": "086c1264",
+    "data": {
+      "Time": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "OffsetX": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 4,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1484,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1488,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1492,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1496,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1500,
+            "type": "f32",
+            "value": "1b49123e"
+          },
+          "Value": {
+            "position": 1504,
+            "type": "f32",
+            "value": "c1c7603e"
+          },
+          "InTangent": {
+            "position": 1508,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1512,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1516,
+            "type": "f32",
+            "value": "855f7a3e"
+          },
+          "Value": {
+            "position": 1520,
+            "type": "f32",
+            "value": "5fd42ebe"
+          },
+          "InTangent": {
+            "position": 1524,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1528,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1532,
+            "type": "f32",
+            "value": "42ecc43e"
+          },
+          "Value": {
+            "position": 1536,
+            "type": "f32",
+            "value": "8acd473d"
+          },
+          "InTangent": {
+            "position": 1540,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1544,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "OffsetY": {
+        "read_type": 259,
+        "hex": "01000400",
+        "num1": 262145,
+        "count": 3,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1548,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1552,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1556,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1560,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1564,
+            "type": "f32",
+            "value": "ca6ddb3d"
+          },
+          "Value": {
+            "position": 1568,
+            "type": "f32",
+            "value": "c1c7603e"
+          },
+          "InTangent": {
+            "position": 1572,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1576,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1580,
+            "type": "f32",
+            "value": "b85c4d3e"
+          },
+          "Value": {
+            "position": 1584,
+            "type": "f32",
+            "value": "8acdc73c"
+          },
+          "InTangent": {
+            "position": 1588,
+            "type": "f32",
+            "value": "ec7f8ac2"
+          },
+          "OutTangent": {
+            "position": 1592,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "OffsetZ": {
+        "read_type": 259,
+        "hex": "01000700",
+        "num1": 458753,
+        "count": 5,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1596,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 1600,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 1604,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1608,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1612,
+            "type": "f32",
+            "value": "062aa33d"
+          },
+          "Value": {
+            "position": 1616,
+            "type": "f32",
+            "value": "6457a23e"
+          },
+          "InTangent": {
+            "position": 1620,
+            "type": "f32",
+            "value": "4e08aac2"
+          },
+          "OutTangent": {
+            "position": 1624,
+            "type": "f32",
+            "value": "0acda7c2"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1628,
+            "type": "f32",
+            "value": "e63d5e3e"
+          },
+          "Value": {
+            "position": 1632,
+            "type": "f32",
+            "value": "c1c760be"
+          },
+          "InTangent": {
+            "position": 1636,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1640,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1644,
+            "type": "f32",
+            "value": "0c5aa03e"
+          },
+          "Value": {
+            "position": 1648,
+            "type": "f32",
+            "value": "b35d893e"
+          },
+          "InTangent": {
+            "position": 1652,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1656,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_4": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 1660,
+            "type": "f32",
+            "value": "4fcdd53e"
+          },
+          "Value": {
+            "position": 1664,
+            "type": "f32",
+            "value": "8acdc73c"
+          },
+          "InTangent": {
+            "position": 1668,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 1672,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "Pitch": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Yaw": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Roll": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "OffsetFov": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 29,
+    "global_id": 1738691581,
+    "global_id_hex": "fd53a267",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 2,
+        "values_0_pos": 1692,
+        "values_0": "71000000",
+        "values_1_pos": 1696,
+        "values_1": "22000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "19000000",
+        "value": 25
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 30,
+    "global_id": 1771887299,
+    "global_id_hex": "c3da9c69",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "64000000",
+        "value": 100
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 31,
+    "global_id": 1816637691,
+    "global_id_hex": "fbb0476c",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 1724,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 1728,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 1732,
+            "type": "BaseSpecialFXComponent",
+            "value": "2d000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 32,
+    "global_id": 1925117155,
+    "global_id_hex": "e3f4be72",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "02000000",
+        "value": 2
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 1768,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 1772,
+            "type": "f32",
+            "value": "00003041"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "DamageParameters",
+    "local_index": 33,
+    "global_id": 1981555840,
+    "global_id_hex": "80241c76",
+    "data": {
+      "MaxWorldDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "007c1248",
+        "value": 1209170944
+      },
+      "MaxWorldEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00409c46",
+        "value": 1184645120
+      },
+      "MaxVehicleDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "007c1248",
+        "value": 1209170944
+      },
+      "MaxVehicleEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00409c46",
+        "value": 1184645120
+      },
+      "MaxObjectDamageImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00401c46",
+        "value": 1176256512
+      },
+      "MaxObjectEffectImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00007a44",
+        "value": 1148846080
+      },
+      "MaxStaticImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "007c1248",
+        "value": 1209170944
+      },
+      "MaxDynamicImpulse": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0014cd47",
+        "value": 1204622336
+      },
+      "HitByPerkCooldown": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "CollidedCooldown": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c03f",
+        "value": 1069547520
+      },
+      "HealthIncrement": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "64000000",
+        "value": 100
+      },
+      "LightImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "MediumImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "HeavyImpactDamage": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "32000000",
+        "value": 50
+      },
+      "ResetTimerAfterWrecked": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00006040",
+        "value": 1080033280
+      },
+      "CapGameplayImpulse": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "01000000",
+        "value": 1
+      },
+      "IntraVehicularCollisionInertiaScale": {
+        "read_type": 3,
+        "values": {
+          "type": "InertiaScale",
+          "HumanToAiInertiaScaleHuman": {
+            "position": 1840,
+            "type": "f32",
+            "value": "00009040"
+          },
+          "HumanToAiInertiaScaleAi": {
+            "position": 1844,
+            "type": "f32",
+            "value": "6666e63f"
+          },
+          "HumanToHumanInertiaScale": {
+            "position": 1848,
+            "type": "f32",
+            "value": "0000c03f"
+          },
+          "AiToAiInertiaScale": {
+            "position": 1852,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "CarToObjectInertiaScaleCar": {
+            "position": 1856,
+            "type": "f32",
+            "value": "00008040"
+          },
+          "CarToObjectInertiaScaleObject": {
+            "position": 1860,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "HumanToAiMassScaleHuman": {
+            "position": 1864,
+            "type": "f32",
+            "value": "cdcc8c3f"
+          },
+          "HumanToAiMassScaleAi": {
+            "position": 1868,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "CarToObjectMassScaleCar": {
+            "position": 1872,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "CarToObjectMassScaleObject": {
+            "position": 1876,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "ScaledImpactMaxSpeed": {
+            "position": 1880,
+            "type": "f32",
+            "value": "00008c43"
+          },
+          "ScaledImpactMinSpeed": {
+            "position": 1884,
+            "type": "f32",
+            "value": "00007a43"
+          },
+          "MinCarToObjectMassValue": {
+            "position": 1888,
+            "type": "f32",
+            "value": "00007a44"
+          }
+        }
+      },
+      "VehicleHealthGroups": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 4,
+        "values_0": {
+          "type": "VehicleHealthGroup",
+          "HealthGroup": {
+            "position": 1900,
+            "type": "AmaxCarHealthGroup",
+            "value": "00000000"
+          },
+          "BaseHealth": {
+            "position": 1904,
+            "type": "f32",
+            "value": "0000fa43"
+          }
+        },
+        "values_1": {
+          "type": "VehicleHealthGroup",
+          "HealthGroup": {
+            "position": 1908,
+            "type": "AmaxCarHealthGroup",
+            "value": "01000000"
+          },
+          "BaseHealth": {
+            "position": 1912,
+            "type": "f32",
+            "value": "00001644"
+          }
+        },
+        "values_2": {
+          "type": "VehicleHealthGroup",
+          "HealthGroup": {
+            "position": 1916,
+            "type": "AmaxCarHealthGroup",
+            "value": "02000000"
+          },
+          "BaseHealth": {
+            "position": 1920,
+            "type": "f32",
+            "value": "00002f44"
+          }
+        },
+        "values_3": {
+          "type": "VehicleHealthGroup",
+          "HealthGroup": {
+            "position": 1924,
+            "type": "AmaxCarHealthGroup",
+            "value": "03000000"
+          },
+          "BaseHealth": {
+            "position": 1928,
+            "type": "f32",
+            "value": "00004844"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 34,
+    "global_id": 1986023332,
+    "global_id_hex": "a44f6076",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 4,
+        "values_0_pos": 1948,
+        "values_0": "46000000",
+        "values_1_pos": 1952,
+        "values_1": "22000000",
+        "values_2_pos": 1956,
+        "values_2": "1b000000",
+        "values_3_pos": 1960,
+        "values_3": "63000000"
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "0a000000",
+        "value": 10
+      }
+    }
+  },
+  {
+    "type": "HealthLevelZone",
+    "local_index": 35,
+    "global_id": 2030709107,
+    "global_id_hex": "73290a79",
+    "data": {
+      "HealthZone": {
+        "read_type": 1,
+        "atom_type": "HealthLevel",
+        "hex": "03000000",
+        "value": 3
+      },
+      "HealthMin": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "2d010000",
+        "value": 301
+      },
+      "HealthMax": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "50c30000",
+        "value": 50000
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "DamageFilter": {
+        "read_type": 3,
+        "values": {
+          "type": "DamageFilter",
+          "scratchDamage": {
+            "position": 1980,
+            "type": "DamageAllowable",
+            "scratchDamage": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 1980,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 1984,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "deformParts": {
+            "position": 1988,
+            "type": "DamageAllowable",
+            "deformParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 1988,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 1992,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "dislodgeParts": {
+            "position": 1996,
+            "type": "DamageAllowable",
+            "dislodgeParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 1996,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2000,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "detachParts": {
+            "position": 2004,
+            "type": "DamageAllowable",
+            "detachParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2004,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2008,
+                "type": "ImpactLevel",
+                "value": "03000000"
+              }
+            }
+          },
+          "burstTyres": {
+            "position": 2012,
+            "type": "DamageAllowable",
+            "burstTyres": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2012,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2016,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "detachWheels": {
+            "position": 2020,
+            "type": "DamageAllowable",
+            "detachWheels": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2020,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2024,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "lightBreak": {
+            "position": 2028,
+            "type": "DamageAllowable",
+            "lightBreak": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2028,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2032,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "lightKnockOut": {
+            "position": 2036,
+            "type": "DamageAllowable",
+            "lightKnockOut": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2036,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2040,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "radiatorSmoke": {
+            "position": 2044,
+            "type": "DamageAllowable",
+            "radiatorSmoke": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2044,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2048,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "engineSmokeLight": {
+            "position": 2052,
+            "type": "DamageAllowable",
+            "engineSmokeLight": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2052,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2056,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "engineSmokeHeavy": {
+            "position": 2060,
+            "type": "DamageAllowable",
+            "engineSmokeHeavy": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2060,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2064,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "engineFire": {
+            "position": 2068,
+            "type": "DamageAllowable",
+            "engineFire": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2068,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2072,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          }
+        }
+      },
+      "BodyShake": {
+        "read_type": 3,
+        "values": {
+          "type": "BodyShakeParams",
+          "minSpeed": {
+            "position": 2076,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "speedRange": {
+            "position": 2080,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "frequency": {
+            "position": 2084,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "shakeRange": {
+            "position": 2088,
+            "type": "Vec3",
+            "shakeRange": {
+              "type": "Vec3",
+              "vx": {
+                "position": 2088,
+                "type": "f32",
+                "value": "00000000"
+              },
+              "vy": {
+                "position": 2092,
+                "type": "f32",
+                "value": "00000000"
+              },
+              "vz": {
+                "position": 2096,
+                "type": "f32",
+                "value": "00000000"
+              }
+            }
+          }
+        }
+      },
+      "PartShake": {
+        "read_type": 3,
+        "values": {
+          "type": "PartShakeParams",
+          "minSpeed": {
+            "position": 2100,
+            "type": "f32",
+            "value": "0000f041"
+          },
+          "speedRange": {
+            "position": 2104,
+            "type": "f32",
+            "value": "00007042"
+          },
+          "torque": {
+            "position": 2108,
+            "type": "f32",
+            "value": "00007a43"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "LandingType",
+    "local_index": 36,
+    "global_id": 2068870750,
+    "global_id_hex": "5e76507b",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "00000000",
+        "value": 0
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 2116,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Max": {
+            "position": 2120,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 37,
+    "global_id": 2104781588,
+    "global_id_hex": "146b747d",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "LandingType",
+    "local_index": 38,
+    "global_id": 2164279574,
+    "global_id_hex": "16490081",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "01000000",
+        "value": 1
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 2148,
+            "type": "f32",
+            "value": "0ad7a33c"
+          },
+          "Max": {
+            "position": 2152,
+            "type": "f32",
+            "value": "0000803e"
+          }
+        }
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "1d000000",
+        "value": 29
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 39,
+    "global_id": 2203617496,
+    "global_id_hex": "d8885883",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "07000000",
+        "value": 7
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "System",
+    "local_index": 40,
+    "global_id": 2206278946,
+    "global_id_hex": "22258183",
+    "data": {
+      "ScoringSystem": {
+        "read_type": 5,
+        "hex": "45000000",
+        "value": 69
+      },
+      "DamageSystem": {
+        "read_type": 5,
+        "hex": "5a000000",
+        "value": 90
+      },
+      "PickupSystem": {
+        "read_type": 5,
+        "hex": "0e000000",
+        "value": 14
+      },
+      "DraftingSystem": {
+        "read_type": 5,
+        "hex": "49000000",
+        "value": 73
+      },
+      "WallRidingSystem": {
+        "read_type": 5,
+        "hex": "7d000000",
+        "value": 125
+      },
+      "PerkForceEffects": {
+        "read_type": 5,
+        "hex": "79000000",
+        "value": 121
+      },
+      "ReportingParameters": {
+        "read_type": 5,
+        "hex": "56000000",
+        "value": 86
+      },
+      "AIPickupController": {
+        "read_type": 5,
+        "hex": "37000000",
+        "value": 55
+      },
+      "HandOfGodParameters": {
+        "read_type": 5,
+        "hex": "05000000",
+        "value": 5
+      },
+      "HandOfGodMotormashParameters": {
+        "read_type": 5,
+        "hex": "18000000",
+        "value": 24
+      },
+      "AnimatedCameraSequences": {
+        "read_type": 5,
+        "hex": "65000000",
+        "value": 101
+      },
+      "DefaultCameraOffsets": {
+        "read_type": 5,
+        "hex": "61000000",
+        "value": 97
+      },
+      "UICameraParameters": {
+        "read_type": 5,
+        "hex": "07000000",
+        "value": 7
+      },
+      "UICameraMovement": {
+        "read_type": 5,
+        "hex": "03000000",
+        "value": 3
+      },
+      "UILastCameraMovement": {
+        "read_type": 5,
+        "hex": "58000000",
+        "value": 88
+      },
+      "UIAttachedCameraMovement": {
+        "read_type": 5,
+        "hex": "4e000000",
+        "value": 78
+      },
+      "UIGameFeedCameraMovement": {
+        "read_type": 5,
+        "hex": "5f000000",
+        "value": 95
+      },
+      "UiCameraTarget": {
+        "read_type": 5,
+        "hex": "76000000",
+        "value": 118
+      },
+      "GameModeParameters": {
+        "read_type": 5,
+        "hex": "2a000000",
+        "value": 42
+      }
+    }
+  },
+  {
+    "type": "ScoringSystem",
+    "local_index": 41,
+    "global_id": 2235071236,
+    "global_id_hex": "047b3885",
+    "data": {
+      "Parameters": {
+        "read_type": 5,
+        "hex": "34000000",
+        "value": 52
+      },
+      "ScoringTypeArray": {
+        "read_type": 5,
+        "hex": "04000000",
+        "value": 4
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 42,
+    "global_id": 2237209532,
+    "global_id_hex": "bc1b5985",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "06000000",
+        "value": 6
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 43,
+    "global_id": 2244708813,
+    "global_id_hex": "cd89cb85",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "0a000000",
+        "value": 10
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 44,
+    "global_id": 2449173377,
+    "global_id_hex": "816bfb91",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "DraftingSystem",
+    "local_index": 45,
+    "global_id": 2457328472,
+    "global_id_hex": "58db7792",
+    "data": {
+      "DraftingSpecialFX": {
+        "read_type": 5,
+        "hex": "23000000",
+        "value": 35
+      },
+      "DraftingFadeInSpecialFX": {
+        "read_type": 5,
+        "hex": "3a000000",
+        "value": 58
+      },
+      "DraftingFadeOutSpecialFX": {
+        "read_type": 5,
+        "hex": "21000000",
+        "value": 33
+      },
+      "DraftingAnimationTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "DraftingFadeInTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000003f",
+        "value": 1056964608
+      },
+      "DraftingFadeOutTime": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 46,
+    "global_id": 2472889482,
+    "global_id_hex": "8a4c6593",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "LandingType",
+    "local_index": 47,
+    "global_id": 2584450121,
+    "global_id_hex": "49940b9a",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "02000000",
+        "value": 2
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 2372,
+            "type": "f32",
+            "value": "0000803e"
+          },
+          "Max": {
+            "position": 2376,
+            "type": "f32",
+            "value": "6666263f"
+          }
+        }
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "33000000",
+        "value": 51
+      }
+    }
+  },
+  {
+    "type": "ImpactType",
+    "local_index": 48,
+    "global_id": 2653652094,
+    "global_id_hex": "7e842b9e",
+    "data": {
+      "ImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "02000000",
+        "value": 2
+      },
+      "ImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 2388,
+            "type": "f32",
+            "value": "17d9ce3d"
+          },
+          "Max": {
+            "position": 2392,
+            "type": "f32",
+            "value": "52b89e3e"
+          }
+        }
+      },
+      "SideImpulseBounds": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 2396,
+            "type": "f32",
+            "value": "cdcccc3d"
+          },
+          "Max": {
+            "position": 2400,
+            "type": "f32",
+            "value": "52b89e3e"
+          }
+        }
+      },
+      "RollScreenEffect": {
+        "read_type": 5,
+        "hex": "68000000",
+        "value": 104
+      },
+      "FrontScreenEffect": {
+        "read_type": 5,
+        "hex": "30000000",
+        "value": 48
+      },
+      "SideScreenEffect": {
+        "read_type": 5,
+        "hex": "26000000",
+        "value": 38
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 49,
+    "global_id": 2713896149,
+    "global_id_hex": "d5c4c2a1",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "CameraSpecialFX",
+    "local_index": 50,
+    "global_id": 2867596623,
+    "global_id_hex": "4f0decaa",
+    "data": {
+      "Time": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000803f",
+        "value": 1065353216
+      },
+      "OffsetX": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 4,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2500,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 2504,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 2508,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2512,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2516,
+            "type": "f32",
+            "value": "558a1d3d"
+          },
+          "Value": {
+            "position": 2520,
+            "type": "f32",
+            "value": "adda95bd"
+          },
+          "InTangent": {
+            "position": 2524,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2528,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2532,
+            "type": "f32",
+            "value": "63ecc43d"
+          },
+          "Value": {
+            "position": 2536,
+            "type": "f32",
+            "value": "adda953d"
+          },
+          "InTangent": {
+            "position": 2540,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2544,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2548,
+            "type": "f32",
+            "value": "96e9173e"
+          },
+          "Value": {
+            "position": 2552,
+            "type": "f32",
+            "value": "8acd473d"
+          },
+          "InTangent": {
+            "position": 2556,
+            "type": "f32",
+            "value": "6759e041"
+          },
+          "OutTangent": {
+            "position": 2560,
+            "type": "f32",
+            "value": "fb572c41"
+          }
+        }
+      },
+      "OffsetY": {
+        "read_type": 259,
+        "hex": "01000400",
+        "num1": 262145,
+        "count": 4,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2564,
+            "type": "f32",
+            "value": "d848123d"
+          },
+          "Value": {
+            "position": 2568,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 2572,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2576,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2580,
+            "type": "f32",
+            "value": "a0a88c3d"
+          },
+          "Value": {
+            "position": 2584,
+            "type": "f32",
+            "value": "8acd473d"
+          },
+          "InTangent": {
+            "position": 2588,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2592,
+            "type": "f32",
+            "value": "b4903241"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2596,
+            "type": "f32",
+            "value": "020ee13d"
+          },
+          "Value": {
+            "position": 2600,
+            "type": "f32",
+            "value": "adda95bd"
+          },
+          "InTangent": {
+            "position": 2604,
+            "type": "f32",
+            "value": "aeed7041"
+          },
+          "OutTangent": {
+            "position": 2608,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_3": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2612,
+            "type": "f32",
+            "value": "ea59203e"
+          },
+          "Value": {
+            "position": 2616,
+            "type": "f32",
+            "value": "8acdc7bc"
+          },
+          "InTangent": {
+            "position": 2620,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2624,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "OffsetZ": {
+        "read_type": 259,
+        "hex": "01000800",
+        "num1": 524289,
+        "count": 3,
+        "values_0": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2628,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Value": {
+            "position": 2632,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 2636,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2640,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2644,
+            "type": "f32",
+            "value": "350bb43d"
+          },
+          "Value": {
+            "position": 2648,
+            "type": "f32",
+            "value": "adda953d"
+          },
+          "InTangent": {
+            "position": 2652,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2656,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_2": {
+          "type": "SFXHermiteKeyFrame",
+          "Time": {
+            "position": 2660,
+            "type": "f32",
+            "value": "855f7a3e"
+          },
+          "Value": {
+            "position": 2664,
+            "type": "f32",
+            "value": "8acdc73c"
+          },
+          "InTangent": {
+            "position": 2668,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 2672,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      },
+      "Pitch": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Yaw": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "Roll": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "OffsetFov": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ReportingParameters",
+    "local_index": 51,
+    "global_id": 2881314261,
+    "global_id_hex": "d55dbdab",
+    "data": {
+      "ProximityReportingDistanceSquared": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "0000c841",
+        "value": 1103626240
+      },
+      "EndOfRacePercentage": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "3333733f",
+        "value": 1064514355
+      },
+      "MajorCrashImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "03000000",
+        "value": 3
+      },
+      "PileUpMinimumVehicles": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "02000000",
+        "value": 2
+      },
+      "PileUpMinimumDistance": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "64000000",
+        "value": 100
+      },
+      "PileUpMinimumImpactLevel": {
+        "read_type": 1,
+        "atom_type": "ImpactLevel",
+        "hex": "03000000",
+        "value": 3
+      },
+      "PileUpTimer": {
+        "read_type": 0,
+        "atom_type": "f32",
+        "hex": "00000040",
+        "value": 1073741824
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 52,
+    "global_id": 2965005115,
+    "global_id_hex": "3b63bab0",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "DamageSystem",
+    "local_index": 53,
+    "global_id": 2981908992,
+    "global_id_hex": "0052bcb1",
+    "data": {
+      "Parameters": {
+        "read_type": 5,
+        "hex": "3c000000",
+        "value": 60
+      },
+      "ImpactTypes": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 3,
+        "values_0_pos": 2748,
+        "values_0": "15000000",
+        "values_1_pos": 2752,
+        "values_1": "51000000",
+        "values_2_pos": 2756,
+        "values_2": "31000000"
+      },
+      "LandingTypes": {
+        "read_type": 261,
+        "hex": "02000000",
+        "num1": 2,
+        "count": 3,
+        "values_0_pos": 2760,
+        "values_0": "42000000",
+        "values_1_pos": 2764,
+        "values_1": "4d000000",
+        "values_2_pos": 2768,
+        "values_2": "20000000"
+      },
+      "HealthZones": {
+        "read_type": 261,
+        "hex": "03000000",
+        "num1": 3,
+        "count": 4,
+        "values_0_pos": 2772,
+        "values_0": "69000000",
+        "values_1_pos": 2776,
+        "values_1": "5e000000",
+        "values_2_pos": 2780,
+        "values_2": "5d000000",
+        "values_3_pos": 2784,
+        "values_3": "3f000000"
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 54,
+    "global_id": 2987474500,
+    "global_id_hex": "443e11b2",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "08000000",
+        "value": 8
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "HealthLevelZone",
+    "local_index": 55,
+    "global_id": 3026035288,
+    "global_id_hex": "58a25db4",
+    "data": {
+      "HealthZone": {
+        "read_type": 1,
+        "atom_type": "HealthLevel",
+        "hex": "02000000",
+        "value": 2
+      },
+      "HealthMin": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "65000000",
+        "value": 101
+      },
+      "HealthMax": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "2c010000",
+        "value": 300
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "DamageFilter": {
+        "read_type": 3,
+        "values": {
+          "type": "DamageFilter",
+          "scratchDamage": {
+            "position": 2828,
+            "type": "DamageAllowable",
+            "scratchDamage": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2828,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2832,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "deformParts": {
+            "position": 2836,
+            "type": "DamageAllowable",
+            "deformParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2836,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2840,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "dislodgeParts": {
+            "position": 2844,
+            "type": "DamageAllowable",
+            "dislodgeParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2844,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2848,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "detachParts": {
+            "position": 2852,
+            "type": "DamageAllowable",
+            "detachParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2852,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2856,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "burstTyres": {
+            "position": 2860,
+            "type": "DamageAllowable",
+            "burstTyres": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2860,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2864,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "detachWheels": {
+            "position": 2868,
+            "type": "DamageAllowable",
+            "detachWheels": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2868,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2872,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "lightBreak": {
+            "position": 2876,
+            "type": "DamageAllowable",
+            "lightBreak": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2876,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2880,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "lightKnockOut": {
+            "position": 2884,
+            "type": "DamageAllowable",
+            "lightKnockOut": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2884,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2888,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "radiatorSmoke": {
+            "position": 2892,
+            "type": "DamageAllowable",
+            "radiatorSmoke": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2892,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2896,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "engineSmokeLight": {
+            "position": 2900,
+            "type": "DamageAllowable",
+            "engineSmokeLight": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2900,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2904,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "engineSmokeHeavy": {
+            "position": 2908,
+            "type": "DamageAllowable",
+            "engineSmokeHeavy": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2908,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2912,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          },
+          "engineFire": {
+            "position": 2916,
+            "type": "DamageAllowable",
+            "engineFire": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2916,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 2920,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          }
+        }
+      },
+      "BodyShake": {
+        "read_type": 3,
+        "values": {
+          "type": "BodyShakeParams",
+          "minSpeed": {
+            "position": 2924,
+            "type": "f32",
+            "value": "0000f041"
+          },
+          "speedRange": {
+            "position": 2928,
+            "type": "f32",
+            "value": "0000c842"
+          },
+          "frequency": {
+            "position": 2932,
+            "type": "f32",
+            "value": "0000a040"
+          },
+          "shakeRange": {
+            "position": 2936,
+            "type": "Vec3",
+            "shakeRange": {
+              "type": "Vec3",
+              "vx": {
+                "position": 2936,
+                "type": "f32",
+                "value": "00000000"
+              },
+              "vy": {
+                "position": 2940,
+                "type": "f32",
+                "value": "6f12833a"
+              },
+              "vz": {
+                "position": 2944,
+                "type": "f32",
+                "value": "8fc2f53b"
+              }
+            }
+          }
+        }
+      },
+      "PartShake": {
+        "read_type": 3,
+        "values": {
+          "type": "PartShakeParams",
+          "minSpeed": {
+            "position": 2948,
+            "type": "f32",
+            "value": "0000a041"
+          },
+          "speedRange": {
+            "position": 2952,
+            "type": "f32",
+            "value": "00007042"
+          },
+          "torque": {
+            "position": 2956,
+            "type": "f32",
+            "value": "00803b44"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "HealthLevelZone",
+    "local_index": 56,
+    "global_id": 3066004191,
+    "global_id_hex": "df82bfb6",
+    "data": {
+      "HealthZone": {
+        "read_type": 1,
+        "atom_type": "HealthLevel",
+        "hex": "01000000",
+        "value": 1
+      },
+      "HealthMin": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      },
+      "HealthMax": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "64000000",
+        "value": 100
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "6e000000",
+        "value": 110
+      },
+      "DamageFilter": {
+        "read_type": 3,
+        "values": {
+          "type": "DamageFilter",
+          "scratchDamage": {
+            "position": 2976,
+            "type": "DamageAllowable",
+            "scratchDamage": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2976,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2980,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "deformParts": {
+            "position": 2984,
+            "type": "DamageAllowable",
+            "deformParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2984,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2988,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "dislodgeParts": {
+            "position": 2992,
+            "type": "DamageAllowable",
+            "dislodgeParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 2992,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 2996,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "detachParts": {
+            "position": 3000,
+            "type": "DamageAllowable",
+            "detachParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3000,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3004,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "burstTyres": {
+            "position": 3008,
+            "type": "DamageAllowable",
+            "burstTyres": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3008,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3012,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "detachWheels": {
+            "position": 3016,
+            "type": "DamageAllowable",
+            "detachWheels": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3016,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3020,
+                "type": "ImpactLevel",
+                "value": "03000000"
+              }
+            }
+          },
+          "lightBreak": {
+            "position": 3024,
+            "type": "DamageAllowable",
+            "lightBreak": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3024,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3028,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "lightKnockOut": {
+            "position": 3032,
+            "type": "DamageAllowable",
+            "lightKnockOut": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3032,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3036,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "radiatorSmoke": {
+            "position": 3040,
+            "type": "DamageAllowable",
+            "radiatorSmoke": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3040,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3044,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "engineSmokeLight": {
+            "position": 3048,
+            "type": "DamageAllowable",
+            "engineSmokeLight": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3048,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3052,
+                "type": "ImpactLevel",
+                "value": "02000000"
+              }
+            }
+          },
+          "engineSmokeHeavy": {
+            "position": 3056,
+            "type": "DamageAllowable",
+            "engineSmokeHeavy": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3056,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3060,
+                "type": "ImpactLevel",
+                "value": "03000000"
+              }
+            }
+          },
+          "engineFire": {
+            "position": 3064,
+            "type": "DamageAllowable",
+            "engineFire": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3064,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3068,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          }
+        }
+      },
+      "BodyShake": {
+        "read_type": 3,
+        "values": {
+          "type": "BodyShakeParams",
+          "minSpeed": {
+            "position": 3072,
+            "type": "f32",
+            "value": "00002041"
+          },
+          "speedRange": {
+            "position": 3076,
+            "type": "f32",
+            "value": "0000c842"
+          },
+          "frequency": {
+            "position": 3080,
+            "type": "f32",
+            "value": "0000c040"
+          },
+          "shakeRange": {
+            "position": 3084,
+            "type": "Vec3",
+            "shakeRange": {
+              "type": "Vec3",
+              "vx": {
+                "position": 3084,
+                "type": "f32",
+                "value": "00000000"
+              },
+              "vy": {
+                "position": 3088,
+                "type": "f32",
+                "value": "8fc2f53b"
+              },
+              "vz": {
+                "position": 3092,
+                "type": "f32",
+                "value": "295c0f3d"
+              }
+            }
+          }
+        }
+      },
+      "PartShake": {
+        "read_type": 3,
+        "values": {
+          "type": "PartShakeParams",
+          "minSpeed": {
+            "position": 3096,
+            "type": "f32",
+            "value": "00002041"
+          },
+          "speedRange": {
+            "position": 3100,
+            "type": "f32",
+            "value": "00007042"
+          },
+          "torque": {
+            "position": 3104,
+            "type": "f32",
+            "value": "00004844"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 57,
+    "global_id": 3193120144,
+    "global_id_hex": "902553be",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "06000000",
+        "value": 6
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "01000000",
+        "value": 1
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 58,
+    "global_id": 3276547127,
+    "global_id_hex": "37244cc3",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "03000000",
+        "value": 3
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 3164,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 3168,
+            "type": "f32",
+            "value": "00002041"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "GenericCameraSequences",
+    "local_index": 59,
+    "global_id": 3516545940,
+    "global_id_hex": "943b9ad1",
+    "data": {
+      "SequenceArray": {
+        "read_type": 261,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 22,
+        "values_0_pos": 3180,
+        "values_0": "36000000",
+        "values_1_pos": 3184,
+        "values_1": "0b000000",
+        "values_2_pos": 3188,
+        "values_2": "60000000",
+        "values_3_pos": 3192,
+        "values_3": "57000000",
+        "values_4_pos": 3196,
+        "values_4": "53000000",
+        "values_5_pos": 3200,
+        "values_5": "75000000",
+        "values_6_pos": 3204,
+        "values_6": "29000000",
+        "values_7_pos": 3208,
+        "values_7": "2c000000",
+        "values_8_pos": 3212,
+        "values_8": "4f000000",
+        "values_9_pos": 3216,
+        "values_9": "5c000000",
+        "values_10_pos": 3220,
+        "values_10": "00000000",
+        "values_11_pos": 3224,
+        "values_11": "01000000",
+        "values_12_pos": 3228,
+        "values_12": "7c000000",
+        "values_13_pos": 3232,
+        "values_13": "17000000",
+        "values_14_pos": 3236,
+        "values_14": "70000000",
+        "values_15_pos": 3240,
+        "values_15": "2e000000",
+        "values_16_pos": 3244,
+        "values_16": "2b000000",
+        "values_17_pos": 3248,
+        "values_17": "6b000000",
+        "values_18_pos": 3252,
+        "values_18": "14000000",
+        "values_19_pos": 3256,
+        "values_19": "4a000000",
+        "values_20_pos": 3260,
+        "values_20": "32000000",
+        "values_21_pos": 3264,
+        "values_21": "74000000"
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 60,
+    "global_id": 3518580326,
+    "global_id_hex": "6646b9d1",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringParameters",
+    "local_index": 61,
+    "global_id": 3525148238,
+    "global_id_hex": "4e7e1dd2",
+    "data": {
+      "DriftAngle": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 3284,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Max": {
+            "position": 3288,
+            "type": "f32",
+            "value": "00003443"
+          }
+        }
+      },
+      "SlipAmount": {
+        "read_type": 3,
+        "values": {
+          "type": "MinMax",
+          "Min": {
+            "position": 3292,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Max": {
+            "position": 3296,
+            "type": "f32",
+            "value": "00004843"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "HealthLevelZone",
+    "local_index": 62,
+    "global_id": 3633381083,
+    "global_id_hex": "dbfe90d8",
+    "data": {
+      "HealthZone": {
+        "read_type": 1,
+        "atom_type": "HealthLevel",
+        "hex": "00000000",
+        "value": 0
+      },
+      "HealthMin": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "HealthMax": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "00000000",
+        "value": 0
+      },
+      "ScreenEffect": {
+        "read_type": 5,
+        "hex": "7a000000",
+        "value": 122
+      },
+      "DamageFilter": {
+        "read_type": 3,
+        "values": {
+          "type": "DamageFilter",
+          "scratchDamage": {
+            "position": 3316,
+            "type": "DamageAllowable",
+            "scratchDamage": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3316,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3320,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "deformParts": {
+            "position": 3324,
+            "type": "DamageAllowable",
+            "deformParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3324,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3328,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "dislodgeParts": {
+            "position": 3332,
+            "type": "DamageAllowable",
+            "dislodgeParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3332,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3336,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "detachParts": {
+            "position": 3340,
+            "type": "DamageAllowable",
+            "detachParts": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3340,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3344,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "burstTyres": {
+            "position": 3348,
+            "type": "DamageAllowable",
+            "burstTyres": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3348,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3352,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "detachWheels": {
+            "position": 3356,
+            "type": "DamageAllowable",
+            "detachWheels": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3356,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3360,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "lightBreak": {
+            "position": 3364,
+            "type": "DamageAllowable",
+            "lightBreak": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3364,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3368,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "lightKnockOut": {
+            "position": 3372,
+            "type": "DamageAllowable",
+            "lightKnockOut": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3372,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3376,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "radiatorSmoke": {
+            "position": 3380,
+            "type": "DamageAllowable",
+            "radiatorSmoke": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3380,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3384,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "engineSmokeLight": {
+            "position": 3388,
+            "type": "DamageAllowable",
+            "engineSmokeLight": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3388,
+                "type": "bool",
+                "value": "00000000"
+              },
+              "impactRequired": {
+                "position": 3392,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "engineSmokeHeavy": {
+            "position": 3396,
+            "type": "DamageAllowable",
+            "engineSmokeHeavy": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3396,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3400,
+                "type": "ImpactLevel",
+                "value": "01000000"
+              }
+            }
+          },
+          "engineFire": {
+            "position": 3404,
+            "type": "DamageAllowable",
+            "engineFire": {
+              "type": "DamageAllowable",
+              "allowable": {
+                "position": 3404,
+                "type": "bool",
+                "value": "01000000"
+              },
+              "impactRequired": {
+                "position": 3408,
+                "type": "ImpactLevel",
+                "value": "00000000"
+              }
+            }
+          }
+        }
+      },
+      "BodyShake": {
+        "read_type": 3,
+        "values": {
+          "type": "BodyShakeParams",
+          "minSpeed": {
+            "position": 3412,
+            "type": "f32",
+            "value": "0000a040"
+          },
+          "speedRange": {
+            "position": 3416,
+            "type": "f32",
+            "value": "00004842"
+          },
+          "frequency": {
+            "position": 3420,
+            "type": "f32",
+            "value": "00007041"
+          },
+          "shakeRange": {
+            "position": 3424,
+            "type": "Vec3",
+            "shakeRange": {
+              "type": "Vec3",
+              "vx": {
+                "position": 3424,
+                "type": "f32",
+                "value": "00000000"
+              },
+              "vy": {
+                "position": 3428,
+                "type": "f32",
+                "value": "0ad7a33b"
+              },
+              "vz": {
+                "position": 3432,
+                "type": "f32",
+                "value": "0ad7a33c"
+              }
+            }
+          }
+        }
+      },
+      "PartShake": {
+        "read_type": 3,
+        "values": {
+          "type": "PartShakeParams",
+          "minSpeed": {
+            "position": 3436,
+            "type": "f32",
+            "value": "0000a040"
+          },
+          "speedRange": {
+            "position": 3440,
+            "type": "f32",
+            "value": "0000a041"
+          },
+          "torque": {
+            "position": 3444,
+            "type": "f32",
+            "value": "0000c843"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "SpecialFX",
+    "local_index": 63,
+    "global_id": 3638061086,
+    "global_id_hex": "1e68d8d8",
+    "data": {
+      "Components": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 1,
+        "values_0": {
+          "type": "SpecialFXComponentData",
+          "SpeedFactor": {
+            "position": 3456,
+            "type": "f32",
+            "value": "0000803f"
+          },
+          "StartOffset": {
+            "position": 3460,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "Component": {
+            "position": 3464,
+            "type": "BaseSpecialFXComponent",
+            "value": "35000000"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 64,
+    "global_id": 3719123841,
+    "global_id_hex": "8153addd",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "09000000",
+        "value": 9
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 65,
+    "global_id": 3779178211,
+    "global_id_hex": "e3ae41e1",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 66,
+    "global_id": 3783332002,
+    "global_id_hex": "a21081e1",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "02000000",
+        "value": 2
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 2,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 3540,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 3544,
+            "type": "f32",
+            "value": "0000c841"
+          }
+        },
+        "values_1": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 3556,
+            "type": "RuleValueType",
+            "value": "01000000"
+          },
+          "Value": {
+            "position": 3560,
+            "type": "f32",
+            "value": "0000c842"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 67,
+    "global_id": 3846107258,
+    "global_id_hex": "7af03ee5",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "0a000000",
+        "value": 10
+      }
+    }
+  },
+  {
+    "type": "ScoringType",
+    "local_index": 68,
+    "global_id": 4115806544,
+    "global_id_hex": "503952f5",
+    "data": {
+      "Rules": {
+        "read_type": 261,
+        "hex": "ffffffff",
+        "num1": 4294967295,
+        "count": 0
+      },
+      "ScoreValue": {
+        "read_type": 0,
+        "atom_type": "i32",
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  },
+  {
+    "type": "ScoringRuleType",
+    "local_index": 69,
+    "global_id": 4181452045,
+    "global_id_hex": "0de53bf9",
+    "data": {
+      "Rule": {
+        "read_type": 1,
+        "atom_type": "ScoreRule",
+        "hex": "02000000",
+        "value": 2
+      },
+      "Not": {
+        "read_type": 0,
+        "atom_type": "bool",
+        "hex": "00000000",
+        "value": 0
+      },
+      "Values": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 2,
+        "values_0": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 3628,
+            "type": "RuleValueType",
+            "value": "02000000"
+          },
+          "Value": {
+            "position": 3632,
+            "type": "f32",
+            "value": "0000a040"
+          }
+        },
+        "values_1": {
+          "type": "ScoringRuleValue",
+          "Type": {
+            "position": 3644,
+            "type": "RuleValueType",
+            "value": "01000000"
+          },
+          "Value": {
+            "position": 3648,
+            "type": "f32",
+            "value": "0000c841"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "WallRidingSystem",
+    "local_index": 70,
+    "global_id": 4248016095,
+    "global_id_hex": "df9433fd",
+    "data": {
+      "WallRidingGraph": {
+        "read_type": 259,
+        "hex": "01000000",
+        "num1": 1,
+        "count": 3,
+        "values_0": {
+          "type": "WallRidingKeyFrame",
+          "Speed": {
+            "position": 3660,
+            "type": "f32",
+            "value": "00008c42"
+          },
+          "Multiplier": {
+            "position": 3664,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "InTangent": {
+            "position": 3668,
+            "type": "f32",
+            "value": "00000000"
+          },
+          "OutTangent": {
+            "position": 3672,
+            "type": "f32",
+            "value": "00000000"
+          }
+        },
+        "values_1": {
+          "type": "WallRidingKeyFrame",
+          "Speed": {
+            "position": 3676,
+            "type": "f32",
+            "value": "4e690943"
+          },
+          "Multiplier": {
+            "position": 3680,
+            "type": "f32",
+            "value": "85430840"
+          },
+          "InTangent": {
+            "position": 3684,
+            "type": "f32",
+            "value": "541a7440"
+          },
+          "OutTangent": {
+            "position": 3688,
+            "type": "f32",
+            "value": "405d9240"
+          }
+        },
+        "values_2": {
+          "type": "WallRidingKeyFrame",
+          "Speed": {
+            "position": 3692,
+            "type": "f32",
+            "value": "05b17043"
+          },
+          "Multiplier": {
+            "position": 3696,
+            "type": "f32",
+            "value": "0000a040"
+          },
+          "InTangent": {
+            "position": 3700,
+            "type": "f32",
+            "value": "b5fe16b7"
+          },
+          "OutTangent": {
+            "position": 3704,
+            "type": "f32",
+            "value": "00000000"
+          }
+        }
+      }
+    }
+  }
+]

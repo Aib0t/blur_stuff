@@ -1,0 +1,20 @@
+[
+  {
+    "type": "DLCCheatChromeVehicle",
+    "local_index": 0,
+    "global_id": 2163523884,
+    "global_id_hex": "2cc1f480",
+    "data": {
+      "Vehicle": {
+        "read_type": 5,
+        "hex": "ffffffff",
+        "value": 4294967295
+      },
+      "VehicleUnlock": {
+        "read_type": 5,
+        "hex": "01000000",
+        "value": 1
+      }
+    }
+  }
+]
